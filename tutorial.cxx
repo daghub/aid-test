@@ -5,7 +5,7 @@
 #include <time.h>
 int main(int argc, char *argv[])
 {
-  int iSecret, iGuess;
+  int iSecret;
 
   srand (time(NULL));
   iSecret = rand() % 10;
