@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 
   srand (time(NULL));
   iSecret = rand() % 10;
-  if (iSecret > 5) {
+  if (iSecret > 7) {
     // return error code
     printf("error!\n");
     return 1;
