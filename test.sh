@@ -1,3 +1,3 @@
 #!/bin/bash
 set -e
-./tutorial
+bazel-bin/tutorial
